@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.header{
+   background-color: red;
+   padding:20px;
+   font-size: 40px;
+}
+.cont{
+   padding:10px;
+   margin:5px;
+   display:flex;
+   flex-basis: 20%;
+   flex-wrap: wrap;
+}
+.book-cont{
+     background-color: red;
+     color:black;
+     padding:20px;
+     margin:20px;
+     width:20%;
+     height:20%;
+     border-radius: 30px;
+    
+     
+
+}
+.book-cont p{
+    color:white;
+}
+.book-cont button{
+    border:none;
+    border-radius: 20px;
+    background-color: black;
+    color:red;
+    width:60px;
+    height:50px;
+    padding:10px;
+    margin-left:80%;
+    
+}
+.btn{
+    border:none;
+    border-radius: 100%;
+    background-color: red;
+    color: black;
+    width:70px;
+    height:70px;
+    padding:5px;
+    position:fixed;
+    bottom:30px;
+    right:20px;
+    font-size: 50px;
+    z-index:0;
+}
+.full{
+    height:100%;
+    width:100%;
+    position:absolute;
+    background-color: black;
+    opacity: 0.8;
+    top:0;
+    left:0;
+    z-index: 1;
+    display:none;
+}
+.pop{
+    background-color:red;
+    color:black;
+    width:40%;
+    padding:30px;
+    position:absolute;
+    left:32%;
+    top:32%;
+    z-index:2;
+    border-radius: 20px;
+    display: none;
+}
+.pop input{
+    background: none;
+    color:black;
+    border:none;
+    border-bottom: solid black 2px;
+    width:100%;
+    padding:5px;
+    margin:5px;
+    font-size: 20px;
+}
+.pop textarea{
+    background: none;
+    color:black;
+    border: solid black 2px;
+    width:100%;
+    padding:5px;
+    margin:5px;
+    font-size: 20px;
+}
+.pop input:focus{
+    outline:none;
+}
+.pop textarea:focus{
+    outline:none;
+}
+.pop input::placeholder{
+    color:white;
+}
+.pop textarea::placeholder{
+    color:white;
+}
+.pop button{
+    background-color: black;
+    color:red;
+    width:100px;
+    padding:10px;
+    margin:5px;
+    font-size: 20px;
+    border:none;
+    border-radius: 10px;
+}

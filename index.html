@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OM Books</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="book.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">OM BOOKS</div>
+    <div class="cont">
+       <div class="book-cont">
+        <h2>MULLINER NIGHTS</h2>
+        <h5 > PG WODEHOUSE</h5>
+        <p>Mulliner Nights is a collection of short stories by the humorist P.G. Wodehouse. It features recurring characters like the inimitable Lancelot Mulliner, a clubman with a penchant for telling outrageous stories about his relatives and friends. Expect the usual Wodehousean mix of witty dialogue, romantic entanglements, and gloriously eccentric characters in these tales. </p>
+        <button onclick="del(event)">Delete</button>
+    </div>
+    </div>
+    <div class="full"></div>
+        <div class="pop">
+           <h2 style="font-size: 30px; margin:5px; padding:5px;">Add Book</h2>
+           <form>
+            <input placeholder="Enter Title" id="title">
+            <input placeholder="Enter Author's name" id="author">
+            <textarea placeholder="Short Description" id="des"></textarea>
+            <button id="adding">Add</button>
+            <button id="cancel">Cancel</button>
+           </form>
+        </div>
+    <button class="btn" id="create">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
