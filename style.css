@@ -64,7 +64,7 @@ body{
 .full{
     height:100%;
     width:100%;
-    position:absolute;
+    position:fixed;
     background-color: black;
     opacity: 0.8;
     top:0;
@@ -78,8 +78,8 @@ body{
     width:40%;
     padding:30px;
     position:absolute;
-    left:32%;
-    top:32%;
+    left:30rem;
+    top:12rem;
     z-index:2;
     border-radius: 20px;
     display: none;
